@@ -1,0 +1,503 @@
+/*Navbar start*/
+
+nav{
+    background-color: rgb(242, 237, 237);
+    width: 100%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    
+}
+.bgimg{
+    width: 100%;
+}
+.bgimgm{
+    display: none;
+}
+#logo{
+    margin-top: 10px;
+    margin-left: 30px;
+}
+#navbar{
+    width: 100px;
+    list-style: none;
+    display: flex;
+    margin-left: -30px;
+    
+}
+#navbar li{
+    margin: 10px;  
+}
+#navbar li a{
+    text-decoration: none;
+    font-size: 20px;
+    font-family: "Roboto", sans-serif;
+    padding: 10px 15px;
+    color: black;
+}
+.signin{
+    margin-left: 750px;
+}
+#btns{
+    width: 100px;
+    list-style: none;
+    display: flex;
+    margin-left: 200px;
+    
+}
+#btns li{
+    margin: 10px;
+    
+}
+#btns li a{
+    text-decoration: none;
+    font-family: "Roboto", sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 10px 19px;
+    background-color: orangered;
+    border-radius: 5px;
+    color: white;
+}
+
+/*Navbar end*/
+
+/*Content-1 start*/
+.box{
+    width: 400px;
+    height: 400px;
+    background-color: white;
+    position: absolute;
+    margin-top: -670px;
+    margin-left: 200px;
+    border-radius: 20px;
+    padding: 50px;
+}
+.mym{
+    font-family: "Roboto", sans-serif;
+    margin-top: 40px;
+    word-spacing: 2px;
+}
+.hss{
+    margin-top: -15px;
+    font-family: "Roboto", sans-serif;
+    font-size: 45px;
+    font-weight: 550;
+    letter-spacing: 5px;
+}
+.hssp{
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+    margin-top: -15px;
+}
+#stc{
+    width: 350px;
+    height: 50px;
+    background-color: orangered;
+    color: white;
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-size: larger;
+    font-weight: 500;
+    border: none;
+    letter-spacing: 3px;
+    border-radius: 5px;
+}
+/*Content1 end*/
+
+/*content2 start*/
+.pic1m{
+    display: none;
+}
+.all{
+    display: grid;
+    grid-template-areas: 'left right';
+    grid-template-columns: 50% 50%;
+    margin-top: -4px;
+}
+aside{
+    grid-area: left;
+    
+}
+article{
+    grid-area: right;
+     
+}
+.artbox{
+    width: 370px;
+    height: 400px;
+    margin-top: 200px;
+    margin-left: 170px;
+    
+}
+.gfs{
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    font-size: 40px;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+    
+}
+.gfsp{
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    margin-top: -15px;
+}
+#etf{
+    width: 350px;
+    height: 50px;
+    background-color: orangered;
+    color: white;
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-size: larger;
+    font-weight: 500;
+    border: none;
+    letter-spacing: 3px;
+    border-radius: 5px;
+}
+
+
+/*content2 end*/
+
+/*content3 start*/
+.fie{
+    font-family: "Roboto", sans-serif;
+    font-size: 40px;
+    font-weight: 550;
+    letter-spacing: 3px;  
+    text-align: center; 
+}
+.fiep{
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    margin-top: -20px;
+    letter-spacing: 2px;
+    word-spacing: 3px;
+    text-align: center;   
+}
+#eof{
+    width: 350px;
+    height: 50px;
+    background-color: orangered;
+    color: white;
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-size: larger;
+    font-weight: 500;
+    border: none;
+    letter-spacing: 3px;
+    border-radius: 5px;
+    margin-left: 550px;
+}
+#sp{
+    width: 20px;
+    height: 20px;
+    margin-bottom: -60px;
+    margin-left: 420px;
+}
+#spr{
+    width: 20px;
+    height: 20px;
+    margin-bottom: -60px;
+    margin-left: 610px;
+}
+.ice1{
+    width: 400px;
+    height: 400px;
+    margin-left: 120px;
+}
+.ice2{
+    width: 300px;
+    height: 400px;
+    padding: 50px;
+}
+.ice3{
+    width: 400px;
+    height: 400px;
+    
+}
+
+/*content3 start*/
+
+/*footer start*/
+
+#fb{
+    width: 18px;
+    height: 18px;
+    margin-top: 30px;
+    margin-left: 54px;
+}
+#in{
+    width: 18px;
+    height: 18px;
+    margin-left: 20px;
+}
+#twit{
+    width: 18px;
+    height: 18px;
+    margin-left: 20px;
+}
+#tt{
+    width: 18px;
+    height: 18px;
+    margin-left: 20px;
+    
+}
+.fotall{
+    margin-top: 100px;
+    display: grid;
+    grid-template-areas: 'one two';
+    grid-template-columns: 40% 60%;
+}
+.fleft{
+    grid-area: one;
+    background-color: lightpink;
+}
+.fright{
+    grid-area: two;
+    background-color: antiquewhite;
+}
+.fnav{
+    width: 700px;
+    display: flex;
+
+}
+.fnav li{
+    list-style: none;
+    
+}
+.fnav li a{
+    text-decoration: none;
+    font-size: 18px;
+    font-family: "Roboto", sans-serif;
+    padding: 10px 15px;
+    color: black;
+    border-radius: 5px;
+    word-spacing: 3px;
+
+}
+.fright p{
+    margin-top: 65px;
+    margin-left: 30px;
+    word-spacing: 3px;
+    font-family: "Roboto", sans-serif;
+}
+
+
+/*footer end*/
+
+/*btn hover*/
+.hov{
+    border: 0.5px solid;
+    text-align: center;
+    margin: 5px;
+    margin: 100px;
+    
+    display: inline;
+    background-color: rgb(148, 222, 222);
+    color: white;
+}
+
+.con{
+    width: 100px;
+    display: flex;
+    padding: 10px;
+    background-color: transparent;
+    font-weight: 30;
+    font-family: "Roboto", sans-serif;
+    color: rgb(76, 75, 75);
+    
+    margin-top: -70px;
+    margin-left: 420px;
+}
+.con h3{
+    padding: 7px 10px;
+    background-color: white;
+    border: 0.1px solid;
+    border-radius: 10px;
+    margin: 4px;
+}
+.con:hover .conh span{
+    display: none;
+    
+}
+.conh:hover::before{
+    flex-grow: 1;
+    content: 'ADD'; 
+}
+.con:hover{
+    transition: 10s;
+}
+
+/*btn hover*/
+
+@media (max-width:650px){
+
+    /* navbar & content-1 start */
+    .bgimg{
+        display: none;
+    }
+    .bgimgm{
+        display: block;
+        
+    }
+    #logo{
+        margin-top: 5px;
+        margin-left: 15px;
+    }
+    nav{
+        width: 100%;
+        height: 60px;
+    }
+    #navbar li a{
+        font-size: 12px;
+        padding: 15px;
+    }
+    #btns li a{
+        font-size: 8px;
+        font-weight: bold;
+        padding: 8px 15px;
+        
+    }
+    .signin{
+        margin-left: -70px;
+    }
+    .signup{
+        margin-left: -20px;
+    }
+    .hss{
+        font-size: 35px;
+    }
+    .hssp{
+        font-size: 15px;
+    }
+    .box{
+        width: 350px;
+        height: 310px;
+        margin-top: -400px;
+        margin-left: 42px;
+        padding-top: 10px;
+        padding-bottom: 30px;
+        
+        
+    }
+    .hssp{
+        margin-top: -30px;
+    }
+    #stc{
+        font-size: medium;
+    }
+
+    /* navbar & content-1 end */
+
+    /* content-2 start */
+
+    .pic1{
+        display: none;
+    }
+    .pic1m{
+        display: block;
+    }
+    .artbox{
+        width: 500px;
+        margin-left: -250px;
+        margin-top: -1px;
+        
+    }
+    .gfs{
+        text-align: center;
+        font-size: 35px;
+    }
+    .gfsp{
+        font-size: 15px;
+    }
+    #etf{
+        margin-top: 390px;
+        margin-left: 90px;
+    }
+
+    /* content-2 end */
+
+    /* content-3 start */
+
+    .fie{
+        font-size: 30px;
+        margin-top: 35px;
+    }
+    #sp{
+        margin-left: 20px;
+        margin-top: -20px;
+    }
+    #spr{
+        margin-left: 460px;
+    }
+    #eof{
+        margin-left: 120px;
+    }
+
+    .ice1{
+        width: 300px;
+        height: 300px;
+        margin-top: 20px;
+        margin-left: 150px;
+    }
+    .ice2{
+        width: 200px;
+        height: 300px;
+        margin-left: 150px;
+    }
+    .ice3{
+        width: 300px;
+        height: 300px;
+        margin-left: 150px;
+    }
+    .con{
+        margin-left: 370px;
+    }
+
+
+    /* content-3 end */
+
+    /* footer start */
+    .fotall{
+        margin-top: 50px;
+        display: grid;
+        grid-template-areas:
+        'one'
+        'two';
+        grid-template-columns: 100% 100%;
+    }
+    .fleft{
+        grid-area: one;
+        background-color: lightpink;
+        
+    }
+    .fright{
+        grid-area: two;
+        background-color: antiquewhite;
+    }
+    #fb{
+        margin-left: 28px;
+    }
+    .fnav li a{
+        margin-left: -75px;
+        padding: 10px 65px;
+    }
+    .fright p{
+        margin-top: 15px;
+    }
+    .fnav{
+        width: fit-content;
+    }
+    
+
+
+    /* footer end */
+
+}
